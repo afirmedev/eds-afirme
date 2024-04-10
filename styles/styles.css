@@ -208,3 +208,8 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+
+.laclase-de-alberto {
+  border: 3px solid red;
+}
