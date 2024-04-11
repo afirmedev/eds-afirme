@@ -193,7 +193,7 @@
   border: 1px solid var(--background-color);
 }
 
-/*bkg-dot*/
+/* bkg-dot */
 .section.carousel-container .carousel-wrapper .carousel.block .carousel-slide-indicators button[disabled="true"] {
   background: var(--background-color);
 }
