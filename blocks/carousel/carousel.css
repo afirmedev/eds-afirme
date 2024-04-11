@@ -193,6 +193,11 @@
   border: 1px solid var(--background-color);
 }
 
+/* bkg-dot */
+.section.carousel-container .carousel-wrapper .carousel.block .carousel-slide-indicators button[disabled="true"] {
+  background: var(--background-color);
+}
+
 .section.carousel-container .carousel .carousel-slide .carousel-slide-content {
   max-width: 1170px;
   background: none;
