@@ -27,6 +27,7 @@
   --color-gray: #B3B3B3;
   --link-blue: #337ab7;
   --table-td-color: #6f6f6f;
+  --color-border-light: #f1f1f1;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -365,4 +366,25 @@ main .section {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
+}
+
+.section.logos-container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section.logos-container .logos-wrapper {
+  padding: 40px 0;
+}
+
+.section.logos-container .logos.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section.logos-container .logos.block div {
+  flex: 1;
+  opacity: 0.9;
 }
