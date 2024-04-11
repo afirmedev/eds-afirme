@@ -28,6 +28,7 @@
   --link-blue: #337ab7;
   --table-td-color: #6f6f6f;
   --color-border-light: #f1f1f1;
+  --color-gray-card: #858585;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -42,6 +43,7 @@
   --body-font-size-ss: 11px;
   --body-banner-font-size-xxl: 46px;
   --body-banner-font-size-s: 14px;
+  --body-banner-font-size-s-s: 15px;
   --body-font-size-ssm: 17px;
   --body-font-size-xxs: 12px;
 
@@ -387,4 +389,13 @@ main .section.highlight {
 .section.logos-container .logos.block div {
   flex: 1;
   opacity: 0.9;
+}
+
+.section.columns-container {
+  clear: both;
+}
+
+.section.columns-container .columns.block.columns-2-cols {
+  max-width: 1440px;
+  margin: 0 auto;
 }
