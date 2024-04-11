@@ -228,6 +228,10 @@ main .section {
     padding: 40px 0;
     gap: 0;
   }
+  .section.columns-container .columns-wrapper div div .columns-img-col img {
+    display: flex;
+    justify-content: end;
+  }
   .section.columns-container .columns-wrapper .columns.block > div:last-child picture img {
     max-width: 711px;
   }
@@ -257,6 +261,9 @@ main .section {
   .section.columns-container .columns-wrapper .button-container a:hover {
     background: var(--button-hover);
   } 
+  .section.columns-container .columns-wrapper .columns.block > div:nth-child(even of :not([hidden])) {
+    margin-left: 0;
+  }
   .section.columns-container .columns-wrapper .columns.block > div:nth-child(2n + 1) div:first-child {
     padding-left: 10px;
     padding-right: 7vw;
@@ -265,12 +272,23 @@ main .section {
     display: flex;
     justify-content: end;
   }
+  .section.columns-container .columns-wrapper .columns.block .columns-img-col {
+    flex: none;
+  }
   .section.columns-container .columns-wrapper .columns.block > div:nth-child(-n + 1) .columns-img-col {
     background: none;
   }
   .section.columns-container .columns-wrapper div p {
     line-height: 1.1;
     margin-bottom: 10px;
+  }
+  .section.columns-container .columns-wrapper div h2 + p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: var(--color-gray);
+    font-size: var(--body-font-size-s);
   }
   .section.columns-container .columns-wrapper div p:first-child {
     margin-top: 10px;
@@ -289,7 +307,6 @@ main .section {
     line-height: 1.2;
     font-size: var(--body-font-size-xll);
   }
-  .section.columns-container .columns-wrapper div h2 + p,
   .section.columns-container .columns-wrapper div h2 + p strong {
     margin-top: 0;
     margin-bottom: 20px;
@@ -298,14 +315,6 @@ main .section {
     color: var(--color-gray);
     font-size: var(--body-font-size-s);
   }
-  .section.columns-container .columns-wrapper .columns.block .columns-img-col {
-    flex: none;
-  }
-  .section.columns-container .columns-wrapper div div .columns-img-col img {
-    display: flex;
-    justify-content: end;
-  }
-  .section.columns-container .columns-wrapper .columns.block > div:nth-child(even of :not([hidden])),
   .section.columns-container .columns-wrapper .columns.block > div:nth-child(even of :not([hidden])) div:first-child {
     margin-left: 0;
   }
