@@ -40,15 +40,15 @@ footer {
 .footer-wrapper .footer.block .default-content-wrapper >ul >li:nth-child(5) {
   max-width: 211px;
 }
+.footer-wrapper .footer.block .default-content-wrapper ul li ul {
+  margin-top: 14px;
+  flex-direction: column;
+}
 .footer-wrapper .footer.block .default-content-wrapper ul li:nth-child(3) ul,
 .footer-wrapper .footer.block .default-content-wrapper ul li:nth-child(4) ul {
   gap: 10px;
   max-width: 211px;
   flex-direction: row;
-}
-.footer-wrapper .footer.block .default-content-wrapper ul li ul {
-  margin-top: 14px;
-  flex-direction: column;
 }
 .footer-wrapper .footer.block .default-content-wrapper ul li:nth-child(3) ul li,
 .footer-wrapper .footer.block .default-content-wrapper ul li:nth-child(4) ul li {
@@ -68,7 +68,7 @@ footer .footer a {
   opacity: 0.8;
 }
 .footer-wrapper .footer.block .default-content-wrapper p {
-  padding: 15px 0 0 0;
+  padding: 15px 0 0;
   line-height: normal;
   text-align: center;
   border-top: 1px solid var(--color-green);

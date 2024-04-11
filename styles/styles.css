@@ -231,14 +231,17 @@ main .section {
   .section.columns-container .columns-wrapper .columns.block > div:last-child picture img {
     max-width: 711px;
   }
-  .section.columns-container .columns-wrapper .columns.block > div div:first-child {
-    margin-left: 7vw;
-  }
   .section.columns-container .columns-wrapper .columns.block > div:nth-child(2n +1) {
     background: var(--background-color);
   }
+  .section.columns-container .columns-wrapper .columns.block > div div:first-child {
+    margin-left: 7vw;
+  }
   .section.columns-container .columns-wrapper .button-container {
     margin: 0;
+  }
+  .section.columns-container .columns-wrapper div p a {
+    color: var( --link-blue);
   }
   .section.columns-container .columns-wrapper .button-container a {
     margin: 0;
@@ -249,9 +252,6 @@ main .section {
     color: var(--background-color);
     font-size: var(--body-font-size-xs);
     background: var(--color-button-primary);
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
   .section.columns-container .columns-wrapper .button-container a:hover {
@@ -261,12 +261,12 @@ main .section {
     padding-left: 10px;
     padding-right: 7vw;
   }
-  .section.columns-container .columns-wrapper .columns.block > div:nth-child(-n + 1) .columns-img-col {
-    background: none;
-  }
   .section.columns-container .columns-wrapper div div .columns-img-col {
     display: flex;
     justify-content: end;
+  }
+  .section.columns-container .columns-wrapper .columns.block > div:nth-child(-n + 1) .columns-img-col {
+    background: none;
   }
   .section.columns-container .columns-wrapper div p {
     line-height: 1.1;
@@ -280,9 +280,6 @@ main .section {
     font-size: var(--footer-font-size-m);
     color: var(--color-gray);
     letter-spacing: 1px;
-  }
-  .section.columns-container .columns-wrapper div p a {
-    color: var( --link-blue);
   }
   .section.columns-container .columns-wrapper div h2 {
     margin-top: 20px;
