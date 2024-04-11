@@ -187,7 +187,7 @@ header nav .nav-sections ul > li > ul > li {
 }
 
 header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="true"] > ul {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgb(255 255 255 / 0.9);
 }
 
 header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
