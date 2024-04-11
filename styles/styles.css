@@ -20,7 +20,7 @@
   --text-color: #333;
   --primary-color: #009639;
   --background-footer: #008D42;
-  --background-nav: rgba(255, 255, 255, 90%);
+  --background-nav: rgba(255, 255, 255, 0.9);
   --color-green: #007C3A;
   --color-button-primary: #01963A;
   --background-banner: #F7F7F7;
@@ -217,7 +217,7 @@ main .section {
     max-width: 1200px;
     margin: auto;
   }
-  
+
   .section.columns-container .columns-wrapper {
     max-width: none;
   }
@@ -340,6 +340,7 @@ main .section {
   .section.columns-container .columns-wrapper .columns.block > div:nth-child(even of :not([hidden])) div:first-child {
     margin-left: 0;
   }
+
   .section.columns-container .columns-wrapper .columns.block > div:nth-child(even of :not([hidden])) div:last-child {
     margin-top: 50px;
     padding-left: 15px;

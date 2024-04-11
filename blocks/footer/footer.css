@@ -9,64 +9,78 @@ footer {
   padding: 49px 0 15px;
   max-width: 1170px;
 } 
+
 .footer-wrapper .footer.block .default-content-wrapper {
   padding: 0 15px;
   max-width: 1170px;
 } 
+
 .footer-wrapper .footer.block .default-content-wrapper ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
 }
+
 .footer-wrapper .footer.block .default-content-wrapper > ul {
   padding-bottom: 35px;
 }
+
 .footer-wrapper .footer.block .default-content-wrapper ul li {
   flex:1;
   padding: 0;
   list-style: none;
   color: var(--background-color);
 }
+
 .footer-wrapper .footer.block .default-content-wrapper >ul >li {
   padding: 0 15px;
 }
+
 .footer-wrapper .footer.block .default-content-wrapper ul li ul li {
   opacity: 0.8;
   line-height: 1.5;
 }
+
 .footer-wrapper .footer.block .default-content-wrapper >ul >li:nth-child(3),
 .footer-wrapper .footer.block .default-content-wrapper >ul >li:nth-child(4),
 .footer-wrapper .footer.block .default-content-wrapper >ul >li:nth-child(5) {
   max-width: 211px;
 }
+
 .footer-wrapper .footer.block .default-content-wrapper ul li ul {
   margin-top: 14px;
   flex-direction: column;
 }
+
 .footer-wrapper .footer.block .default-content-wrapper ul li:nth-child(3) ul,
 .footer-wrapper .footer.block .default-content-wrapper ul li:nth-child(4) ul {
   gap: 10px;
   max-width: 211px;
   flex-direction: row;
 }
+
 .footer-wrapper .footer.block .default-content-wrapper ul li:nth-child(3) ul li,
 .footer-wrapper .footer.block .default-content-wrapper ul li:nth-child(4) ul li {
   flex: inherit;
 }
+
 footer .footer {
   max-width: 1200px;
   margin: auto;
 }
+
 footer .footer p,
 footer .footer a {
   margin: 0;
   opacity: 0.8;
   color: var(--background-color);
 }
+
 .footer-wrapper .footer.block .default-content-wrapper ul li ul li a {
   opacity: 0.8;
 }
+
 .footer-wrapper .footer.block .default-content-wrapper p {
   padding: 15px 0 0;
   line-height: normal;
