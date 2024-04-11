@@ -123,9 +123,25 @@
     transition: all 0.4s ease-in-out;
 }
 
+.section.general-services-right.table-container .table.block table tbody tr {
+  border: 0;
+}
+
+.section.general-services-right.table-container .table.block table thead tr {
+  padding: 0;
+  line-height: initial;
+  border: 0;
+}
+
 .section.general-services-left.table-container .table.block table tbody tr:nth-child(3) {
   height: 35px;
   position: relative;
+}
+
+.section.general-services-right.table-container .table.block table tbody tr td {
+  padding: 0;
+  border: 0;
+  line-height: initial;
 }
 
 .section.general-services-left.table-container .table.block table tbody tr td:first-child,
@@ -150,6 +166,21 @@
   color: var(--color-gray);
   font-weight: 100;
   padding: 0;
+}
+
+.section.general-services-right.table-container .table.block table tbody tr td:first-child {
+  font-weight: 100;
+  padding-top: 10px;
+  color: var(--text-color);
+  font-size: var(--body-font-size-s);
+}
+
+.section.general-services-right.table-container .table.block table tbody tr:nth-child(2) td {
+  font-weight: 100;
+  text-align: right;
+  padding-bottom: 36px;
+  color: var(--color-gray-card);
+  font-size: var(--body-font-size-xs);
 }
 
 .section.general-services-left.table-container .table.block table tbody tr:nth-child(3) > td:first-child {
@@ -180,22 +211,6 @@
   vertical-align: middle;
 }
 
-.section.general-services-right.table-container .table.block table tbody tr {
-  border: 0;
-}
-
-.section.general-services-right.table-container .table.block table tbody tr td {
-  padding: 0;
-  border: 0;
-  line-height: initial;
-}
-
-.section.general-services-right.table-container .table.block table thead tr {
-  padding: 0;
-  line-height: initial;
-  border: 0;
-}
-
 .section.general-services-right.table-container .table.block table thead tr th:first-child {
   padding: 0 0 10px;
   color: var(--primary-color);
@@ -209,13 +224,6 @@
   text-decoration: underline;
   color: var(--color-gray-card);
   font-size: var(--body-banner-font-size-s-s);
-}
-
-.section.general-services-right.table-container .table.block table tbody tr td:first-child {
-  font-weight: 100;
-  padding-top: 10px;
-  color: var(--text-color);
-  font-size: var(--body-font-size-s);
 }
 
 .section.general-services-right.table-container .table.block table tbody tr:first-child td:nth-child(2) {
@@ -232,12 +240,4 @@
 
 .section.general-services-right.table-container .table.block table tbody tr:first-child td:nth-child(2) img {
   padding-top: 15px;
-}
-
-.section.general-services-right.table-container .table.block table tbody tr:nth-child(2) td {
-  font-weight: 100;
-  text-align: right;
-  padding-bottom: 36px;
-  color: var(--color-gray-card);
-  font-size: var(--body-font-size-xs);
 }
