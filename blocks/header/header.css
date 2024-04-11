@@ -200,6 +200,18 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
 }
 
 @media (width >= 900px) {
+  header nav .nav-tools {
+    padding-left: 8px;
+    max-width: 164px;
+    width: 100%;
+  }
+  header nav .nav-tools .default-content-wrapper p:first-child {
+    background-color: aliceblue;
+    width: 48px;
+  }
+  header nav .nav-tools .default-content-wrapper p:first-child span.icon-navChat:after {
+    right: 4px;
+  }
   header nav .nav-sections {
     display: block;
     visibility: visible;
@@ -222,7 +234,7 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
 
   header nav .nav-sections .nav-drop {
     position: relative;
-    padding-right: 16px;
+    padding-right: 18px;
     cursor: pointer;
   }
 
@@ -266,7 +278,7 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
   header nav .nav-sections ul {
     display: flex;
     margin: 0;
-    gap: 9px;
+    gap: 11px;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
@@ -275,6 +287,7 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     font-weight: 600;
     color:var(--primary-color); 
     font-size: var(--body-font-size-sm);
+    margin: -2px;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {

@@ -21,6 +21,8 @@
   --primary-color: #009639;
   --background-footer: #008D42;
   --background-nav: rgba(255, 255, 255, .9);
+  --color-green: #007C3A;
+  --color-button-primary: #01963A;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -34,6 +36,7 @@
   --body-font-size-sm: 20px;
   --body-font-size-ss: 11px;
   --body-banner-font-size-xxl: 46px;
+  --body-banner-font-size-s: 14px;
 
   /* heading sizes */
   --heading-font-size-xxl: 48px;
@@ -222,20 +225,4 @@ main .section {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
-}
-
-
-/* section carousel */
-.section.carousel-container .carousel-wrapper {
-  max-width: none;
-}
-.section.carousel-container .carousel-wrapper .carousel.block picture img {
-  width: 100%;
-}
-.section.carousel-container .carousel.block {
-  height: auto;
-  overflow: hidden;
-}
-.section.carousel-container .carousel.block .carousel-slides-container .carousel-slides {
-  height: 70vh;
 }
