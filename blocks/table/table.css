@@ -67,7 +67,7 @@
 .section.general-services-left.table-container .table-wrapper {
   position: absolute;
   max-width: 585px;
-  max-width: 585px;
+  min-width: 585px;
   box-sizing: border-box;
   padding: 18px 23px;
   background: var(--background-color);
