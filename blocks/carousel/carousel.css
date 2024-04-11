@@ -176,9 +176,16 @@
   position: absolute;
   top: 45%;
   left: 5vw;
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 .section.carousel-container .carousel-wrapper .carousel.block .carousel-slide-indicators {
   flex-direction: column;
+}
+.section.carousel-container .carousel-wrapper .carousel.block .carousel-slide-indicators {
+  line-height: 0;
 }
 .section.carousel-container .carousel-wrapper .carousel.block .carousel-slide-indicators button {
   margin: 0;
@@ -207,8 +214,6 @@
   line-height: 1.45;
   border-radius: 0;
 }
-
-
 @media (width >= 1024px) {
   .section.carousel-container .carousel-wrapper {
     max-width: none;

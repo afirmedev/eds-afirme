@@ -198,7 +198,6 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
   align-items: center;
   color: var(--text-color);
 }
-
 @media (width >= 900px) {
   header nav .nav-tools {
     padding-left: 8px;
@@ -206,10 +205,24 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     width: 100%;
   }
   header nav .nav-tools .default-content-wrapper p:first-child {
-    background-color: aliceblue;
     width: 48px;
   }
-  header nav .nav-tools .default-content-wrapper p:first-child span.icon-navChat:after {
+  header nav .nav-tools div p span.icon-navchat:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: .5em;
+    right: -10px;
+    transform: rotate(135deg);
+    width: 6px;
+    height: 6px;
+    border: 2px solid currentcolor;
+    font-size: var(--body-font-size-ss);
+    border-radius: 0 1px 0 0;
+    border-width: 2px 2px 0 0;
+    opacity: 0.3;
+  }
+  header nav .nav-tools .default-content-wrapper p:first-child span.icon-navchat:after {
     right: 4px;
   }
   header nav .nav-sections {
@@ -251,9 +264,7 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     border-radius: 0 1px 0 0;
     border-width: 2px 2px 0 0;
   }
-
-  header nav .nav-tools div p span.icon-navChat:after,
-  header nav .nav-tools div p span.icon-navUser:after {
+  header nav .nav-tools div p span.icon-navuser:after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -268,13 +279,11 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     border-width: 2px 2px 0 0;
     opacity: 0.3;
   }
-
   header nav .nav-sections .nav-drop[aria-expanded="true"]::after {
     top: unset;
     bottom: .5em;
     transform: rotate(315deg);
   }
-
   header nav .nav-sections ul {
     display: flex;
     margin: 0;
@@ -316,7 +325,6 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     border-right: 8px solid transparent;
     border-bottom: 8px solid var(--light-color);
   }
-
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     font-size: var(--body-font-size-s);
   }
@@ -346,13 +354,11 @@ header nav .nav-tools .default-content-wrapper {
   max-width: 163px;
   width: 100%;
 }
-
 /* wolftest */
 .section.wolftest.nav-sections {
   float: right;
   width: auto;
 }
-
 .section.wolftest.nav-sections .default-content-wrapper {
   float: right;
 }
