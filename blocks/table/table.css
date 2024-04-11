@@ -67,6 +67,8 @@
 .section.general-services-left.table-container .table-wrapper {
   position: absolute;
   max-width: 585px;
+  max-width: 585px;
+  box-sizing: border-box;
   padding: 18px 23px;
   background: var(--background-color);
   border-radius: 3px;
@@ -195,11 +197,13 @@
   width: 50%;
   clear: both;
   float: right;
-  transform: translateY(-152px);
+  transform: translateY(-151px);
 }
 
 .section.general-services-right.table-container .table-wrapper {
+  width: 555px;
   max-width: 585px;
+  box-sizing: border-box;
   padding: 18px 23px;
   border-radius: 3px;
   margin-left: 15px;
