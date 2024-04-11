@@ -29,6 +29,10 @@
   --table-td-color: #6f6f6f;
   --color-border-light: #f1f1f1;
   --color-gray-card: #858585;
+  --color-news-bkg: #F3F3F3;
+  --color-news-bkg-second: #F7F7F7;
+  --color-news-titles: #5a5a5a;
+  --color-news-subtitles: #bfbfbf;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -57,6 +61,7 @@
   --body-font-size-xll: 41px;
   --footer-font-size-s: 13px;
   --footer-font-size-m: 14px;
+  --heading-font-size-ml: 30px;
 
   /* nav height */
   --nav-height: 64px;
