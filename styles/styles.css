@@ -20,7 +20,7 @@
   --text-color: #333;
   --primary-color: #009639;
   --background-footer: #008D42;
-  --background-nav: rgba(255, 255, 255, 0.9);
+  --background-nav: rgba(255, 255, 255, 90%);
   --color-green: #007C3A;
   --color-button-primary: #01963A;
   --background-banner: #F7F7F7;

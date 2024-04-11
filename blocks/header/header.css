@@ -211,7 +211,7 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     width: 48px;
   }
 
-  header nav .nav-tools div p span.icon-navchat:after {
+  header nav .nav-tools div p span.icon-navchat::after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -227,7 +227,7 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     opacity: 0.3;
   }
 
-  header nav .nav-tools .default-content-wrapper p:first-child span.icon-navchat:after {
+  header nav .nav-tools .default-content-wrapper p:first-child span.icon-navchat::after {
     right: 4px;
   }
 
@@ -273,7 +273,7 @@ header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     border-width: 2px 2px 0 0;
   }
 
-  header nav .nav-tools div p span.icon-navuser:after {
+  header nav .nav-tools div p span.icon-navuser::after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -355,22 +355,27 @@ header nav .nav-tools {
 header nav .nav-tools div {
   display: flex;
 }
+
 header nav .nav-tools div p {
   position: relative;
   margin: 0 5px;
 }
+
 header nav .nav-tools div >p:first-child span {
   margin-left: 4px;
 }
+
 header nav .nav-tools .default-content-wrapper {
   max-width: 163px;
   width: 100%;
 }
+
 /* wolftest */
 .section.wolftest.nav-sections {
   float: right;
   width: auto;
 }
+
 .section.wolftest.nav-sections .default-content-wrapper {
   float: right;
 }
